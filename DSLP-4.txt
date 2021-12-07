@@ -45,13 +45,13 @@ void main()
         else if(ch==')')
         {
         while(s[top]!='(')
-        postfix[j++]=pop();
+          postfix[j++]=pop();
         ele=pop(); // to remove the left parenthesis
         }
         else // to check for the operators
         {
         while(pri (s[top]) >= pri (ch))
-        postfix[j++]=pop();
+          postfix[j++]=pop();
         push(ch);
         }
     } // end of for loop
