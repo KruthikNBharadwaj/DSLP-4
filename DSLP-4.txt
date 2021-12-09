@@ -55,8 +55,8 @@ void main()
         push(ch);
         }
     } // end of for loop
-    while(s[top]!='#')
-      postfix[j++]=pop();
-    postfix[j]='\0';
+ while(s[top]!='#')
+   postfix[j++]=pop();
+postfix[j]='\0';
 printf("postfix expression is %s",postfix);
 }
